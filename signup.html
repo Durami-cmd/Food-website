@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="whole-container">
+        <div class="form-container">
+            <div class="logo">
+                <img src=".\img\logo-removebg-preview.png" alt="">
+            </div>
+            <form action="/submit" method="post">
+                <label for="name">First name</label>
+                <input type="text" id="text" name="name" required>
+
+                <label for="name">Last name</label>
+                <input type="text" id="text" name="name" required>
+
+
+                <label for="E-mail">E-mail</label>
+                <input type="text" id="text" name="E-mail" required placeholder="@gmail.com">
+
+                <label for="password">Password</label>
+                <input type="text" id="text" name="password" required placeholder="at least 8 characters">
+
+                <div class="check">
+                    <input type="checkbox" id="agree" name="agree">
+                    <label for="checkbox"><h6>By creating an account you agree to the <a class="terms" href=""> terms and conditions.</a>
+                    We will occassionally send you account related emails.</h6>
+                    </label>
+                </div>
+
+                <div class="login">
+                    <a href="index.html" class="login">Sign Up</a>
+                </div>
+                <br>
+                <div class="submit">
+                    <button type="submit"><a href="login.html">Login</a></button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="image-container">
+            <img src="signup chef.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+</html>

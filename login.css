@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.whole-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 3px solid;
+    padding: 20px;
+    width: 400px;
+    height: 470px;
+    border-radius: 19px;
+    margin-left: 5%;
+}
+
+.form-container{
+    width: 450px;
+    height: 400px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container h2{
+    justify-content: center;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.form-container label{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.check-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+
+.form-container button{
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit button{
+    background-color: red;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-bottom: -10px;
+    width: 240px;
+    color: white;
+    font-weight: bold;
+}
+
+.submit :hover{
+    background-color: black;
+}
+
+.login{
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: -10px;
+    color: black;
+    font-weight: bold;
+    border: solid black;
+    background-color: white;
+    align-content: center;
+}
+
+.login a{
+    margin-left: 58px;
+    border: none;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+
+.last{
+    margin-left: 125px;
+    display: flex;
+}
+
+.forget-pass{
+    margin-left: 19vh;
+}
+
+.logo img{
+    width: 25%;
+    margin-top: -20px;
+}

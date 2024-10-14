@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 100vh;
+    background-image: url(Group\ 18.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a {
+    font-size: 20px;
+}
+
+img {
+    width: 70%;
+}
+
+nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #333;
+    position: relative; /* For positioning the underline */
+}
+
+/* Hover Effect Code */
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the underline */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: #ff6347; /* Color of the underline */
+    transition: width 0.3s ease-in-out;
+}
+
+nav a span {
+    position: relative;
+}
+
+nav a span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the underline */
+    width: 0;
+    height: 2px;
+    background-color: #ff6347;
+    transition: width 0.3s ease-in-out;
+}
+
+footer{
+    background: #011424;
+    padding: 0px 50px 0px 50px;
+    color: #f9f9f9;
+}
+
+.Food_menus{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social_icons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.fab{
+    color: white;
+
+}
+.menu_style ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.u_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.u_list li{
+font-size: 20px;
+} 
+.menu_style{
+    display: flex;
+    gap: 4rem;
+}
+.u_list h1{
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+.foot_img{
+width:20%
+}
+
+
+
+nav a:hover span::after {
+    width: 100%;
+}
+
+.third-menu {
+    display: flex;
+    gap: 2rem;
+}
+
+h1 {
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #fff; /* Default color for the text */
+}
+
+.hero-content h1 .highlight {
+    color: #FF6347; /* Change this to the color you want for "Food" */
+}
+
+
+.hero .btn {
+    text-decoration: none;
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #9c6535;
+}
+
+h4 {
+    color: #FF6347;
+}
+
+.products {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #F5F5DC;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.product-card .btn {
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.product-card .btn:hover {
+    background-color: #218838;
+}
+
+
+
+
+.commitment-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #162533; /* Dark background like in the image */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.commitment-section .content {
+    width: 50%;
+}
+
+.commitment-section .underline {
+    width: 60px;
+    height: 3px;
+    background-color: #ff6347; /* Orange underline */
+    margin-bottom: 20px;
+}
+
+.commitment-section .description h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #ff6347; /* Orange text for titles */
+}
+
+.commitment-section .image {
+    width: 40%;
+}
+
+.commitment-section .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.commitment-section .btn {
+    text-decoration: none;
+    background-color: #ff634700;
+    outline-color: #FF6347;
+    outline-width: thin;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Contact Us Button */
+.commitment-section .btn {
+    display: inline-block;
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Space between button and last content */
+}
+
+.commitment-section .btn:hover {
+    background-color: #9c6535;
+}
+
+
+
+/* General styles */
+nav {
+    position: relative;
+}
+
+.logo-and-hamburger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sidebar {
+    display: none; /* Hide sidebar initially */
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: rgba(8, 221, 207, 0.9);
+    padding: 20px;
+    z-index: 1000;
+}
+
+#sidebar li {
+    margin-bottom: 15px;
+}
+
+#sidebar a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Show hamburger menu only on mobile */
+#hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+.third-menu {
+    display: flex;
+    align-items: center;
+}
+
+/* Show sidebar and hamburger on small screens */
+@media (max-width: 1023px) {
+    #hamburger {
+        display: block;
+    }
+    
+    .sidebar {
+        display: flex;
+    }
+
+    .third-menu {
+        display: none;
+    }
+    .sidebar a {
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+
+/* Sidebar styles for larger screens */
+@media (min-width: 1024px) {
+    #sidebar {
+        display: flex; /* Always show sidebar on larger screens */
+        position: relative;
+        height: auto;
+        width: auto;
+        background: none;
+        flex-direction: row;
+    }
+
+    .sidebar li {
+        margin-left: 20px;
+    }
+
+    #hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+    .sidebar a {
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}

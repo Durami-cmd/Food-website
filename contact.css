@@ -1,0 +1,26 @@
+.main-container{
+    background-color: #162533;
+    height: 100vh; 
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+.grodd{
+    text-align: center;
+    font-size: xx-large;
+    color: whitesmoke;   
+}
+.mine{
+    text-align: center;
+    color: whitesmoke;
+}
+button{
+    padding: 15px;
+    margin: 20px;
+    
+}
+.hey{
+    padding: 15px;
+    width: 30%;
+}

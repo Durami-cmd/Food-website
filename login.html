@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="whole-container">
+        <div class="form-container">
+            <div class="logo">
+                <img src=".\img\logo-removebg-preview.png" alt="">
+            </div>
+            <h2>Log In</h2>
+            <form action="/submit" method="post">
+                <label for="E-mail"> E-mail:</label>
+                <input type="text" id="text" name="E-mail" placeholder="@gmail.com" required>
+
+                <label for="text">Password:</label>
+                <input type="text" id="Password" name="Password" placeholder="at least 8 characters" required>
+
+                <div class="check-container">
+                    <input type="checkbox" id="agree" name="agree">
+                    <label for="agree"><h5>Remeber me</h5></label>
+
+                    <h5><a class="forget-pass" href="">Forget password</a></h5>
+                </div>
+
+                <div class="login">
+                    <a href="index.html" class="login">LOGIN</a>
+                </div>
+                <br>
+                <div class="submit">
+                    <button type="submit">Sign in with Google</button>
+                </div>
+                <div class="last">
+                    <h6>Don't have an account?</h6>
+                    <h6><a class="sign" href="">Sign up</a></h6>
+                </div>
+            </form>
+        </div>
+
+        <div class="second-container">
+
+        </div>
+    </div>
+
+</body>
+</html>

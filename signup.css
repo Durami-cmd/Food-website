@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.whole-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 3px solid;
+    padding: 20px;
+    width: 750px;
+    height: 550px;
+    margin-top: -10px;
+    border-radius: 19px;
+}
+
+.names{
+    display: flex;
+    width: 10px;
+    height: 30px;
+}
+
+.names form{
+    width: 50px;
+    height: 20px;
+}
+
+.form-container{
+    width: 350px;
+    height: 400px;
+}
+
+.form-container h2{
+    margin-left: 60px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.image-container img{
+    border-radius: 10px;
+    width: 53vh;
+    border: none;
+    margin-bottom: 500px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.check-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+
+.check{
+    margin-top: -30px;
+    display: flex;
+}
+
+.form-container button{
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit button{
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    width: 240px;
+    color: black;
+    font-weight: bold;
+}
+
+.submit :hover{
+    background-color: black;
+}
+
+.login{
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 210px;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    color: white;
+    font-weight: bold;
+    border: solid black;
+    background-color: red;
+    align-content: center;
+    border: none;
+}
+
+.last{
+    margin-left: 60px;
+    display: flex;
+}
+
+.forget-pass{
+    margin-left: 8vh;
+}
+
+.login a{
+    margin-left: 60px;
+    border: none;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+
+.logo img{
+    width: 30%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
